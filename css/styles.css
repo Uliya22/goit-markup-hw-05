@@ -455,7 +455,8 @@ color: var(--light-text-color);
     transition-timing-function: var(--timing-function);
     overflow: auto;
 }
-.portfolio-link:hover .portfolio-link-text {
+.portfolio-link:hover .portfolio-link-text,
+.portfolio-link:focus .portfolio-link-text{
     transform: translateY(0%);
 }
 
@@ -470,9 +471,9 @@ color: var(--light-text-color);
 }
 .portfolio-text {
     height: 30px;
-
     font-size: 16px;
     line-height: 1.88;
+    color: var(--primary-text-color);
 }
 
 /* Footer */
